@@ -1,1 +1,1 @@
-# w3-python
+It is just for learning Python from W3School
