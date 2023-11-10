@@ -15,7 +15,7 @@ if ("apple" in mylist):
 
 mylist[1:3] = ["blackcurrant"]
 
-mylist.append("Guava")
+mylist.append("guava")
 
 mylist.insert(1, "wood apple")
 
@@ -42,5 +42,13 @@ for i in range(len(mylist)):
 
 
 newList = [x for x in mylist if "a" in x]
+
+print(newList)
+
+newList.sort()
+
+print(newList)
+
+newList.sort(reverse = True)
 
 print(newList)
