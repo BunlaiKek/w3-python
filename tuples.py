@@ -51,3 +51,21 @@ print(red)
 
 for i in myTuple:
     print(i)
+
+for i in range(len(myTuple)):
+    print(i)
+
+o=0
+while o < len(myTuple):
+    print(myTuple[o])
+    o = o + 1
+
+finalTuple = myTuple + fruits
+
+print(finalTuple)
+
+
+doubleTuple = myTuple * 2
+
+
+print("where banana stand", myTuple.index('banana'))
