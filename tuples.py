@@ -32,8 +32,22 @@ partialTuple = ("WaterMelon",)
 newTuple += partialTuple
 
 
-(KOI, Betta, Gipple) = anotherTuple
+(KOI, *remaining) = anotherTuple
 
 print("Koi", KOI)
 
+print("Remaining", remaining)
+
 print(newTuple)
+
+
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+(green, *tropic, red) = fruits
+
+print(green)
+print(tropic)
+print(red)
+
+for i in myTuple:
+    print(i)
